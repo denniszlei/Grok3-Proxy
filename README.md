@@ -36,7 +36,7 @@ A high-performance streaming proxy server that provides OpenAI-compatible API en
 ```bash
 # Clone the repository
 git clone https://github.com/idekubaguscom/Grok3-Proxy.git
-cd grok3-proxy
+cd Grok3-Proxy
 
 # Install dependencies
 pip install -r requirements.txt
@@ -64,7 +64,11 @@ class Config:
 ### Start the Server
 
 ```bash
+<<<<<<< HEAD
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
+=======
+python main.py
+>>>>>>> 5a4e039 (Initial commit)
 ```
 
 Server will start on `http://localhost:8000`
@@ -128,7 +132,11 @@ Client Request → FastAPI → Auth Token Pool → Target Service → Stream Par
 ### Project Structure
 
 ```
+<<<<<<< HEAD
 grok3-proxy/
+=======
+grok-proxy/
+>>>>>>> 5a4e039 (Initial commit)
 ├── main.py              # Main application file
 ├── requirements.txt     # Dependencies
 ├── README.md           # This file
@@ -223,4 +231,8 @@ This project is provided as-is for educational purposes. No warranty or support 
 
 ---
 
+<<<<<<< HEAD
 **Remember**: This project is for learning and research only. Always respect Terms of Service and applicable laws when working with web APIs and services.
+=======
+**Remember**: This project is for learning and research only. Always respect Terms of Service and applicable laws when working with web APIs and services.
+>>>>>>> 5a4e039 (Initial commit)
